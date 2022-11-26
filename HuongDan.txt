@@ -1,0 +1,14 @@
+Client
+- npm install --legacy-peer-deps
+- Sửa package.json scripts.start thành react-scripts --openssl-legacy-provider start (sua xong r)
+- npm start	(.)
+
+Manage
+- npm update --legacy-peer-deps
+- npm install --legacy-peer-deps
+- Sửa package.json scripts.start thành react-scripts --openssl-legacy-provider start
+- npm start
+
+Server
+- npm install
+- npm start	(.)

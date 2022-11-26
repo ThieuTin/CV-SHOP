@@ -1,0 +1,112 @@
+mongodb://127.0.0.1:27017
+(connect mongodb)
+
+đổi mongodb trong ShopAPINodeJS/src/config/db.js
+//------------------------------------------------------
+
+POST http://localhost:5000/api/categories
+
+{
+    "title":"Thời trang nữ",
+    "image":"https://salt.tikicdn.com/cache/200x200/ts/product/4d/f0/19/5a0503b3a9f0cbf4fcfc7567c93ead76.jpg.webp",
+    "parentId":null,
+    "displayOrder":5,
+    "banners":[
+        "https://salt.tikicdn.com/cache/w1080/ts/banner/4f/ee/c8/0e58384f0279db313b7f6e30dd83fe89.jpg.webp",
+        "https://salt.tikicdn.com/cache/w1080/ts/banner/6b/a3/96/c9979ab3910e69119761a23ebb84e3f3.png.webp",
+        "https://salt.tikicdn.com/cache/w1080/ts/banner/9e/d1/00/01ba3357ea22f65ed6b7e7aada44b986.png.webp"
+    ],
+    "status":"active"
+}
+//---------------------------------------------------------------------------------------------------------------
+post http://localhost:5000/api/products
+
+{
+"name":"Điện thoại Vsmart Aris Pro (8GB/128GB) - Hàng chính hãng",
+"categoryId": [2],   
+"images": [
+	"https://salt.tikicdn.com/cache/400x400/ts/product/ac/82/06/f1ec1b4ad34cc6cb1b21e50b81a90917.jpg.webp"
+], 
+"information":[
+	{
+		"title":"Dung lượng pin",
+		"text":"4000 mAh"
+	},
+	{
+		"title":"Bluetooth",
+		"text":"5.0"
+	},
+	{
+		"title":"Thương hiệu",
+		"text":"Vsmart"
+	},
+	{
+		"title":"Xuất xứ thương hiệu",
+		"text":"Việt Nam"
+	},
+	{
+		"title":"Camera sau",
+		"text":"Chính 64 MP & Phụ 8 MP, 8 MP, 2 MP"
+	},
+	{
+		"title":"Camera trước",
+		"text":"20MP"
+	},
+	{
+		"title":"Chip đồ họa (GPU)",
+		"text":"Adreno 618"
+	},
+	{
+		"title":"Tốc độ CPU",
+		"text":"2 nhân 2.2 GHz & 6 nhân 1.8 GHz"
+	},
+	{
+		"title":"RAM",
+		"text":"8GB"
+	},
+	{
+		"title":"Wifi",
+		"text":"Wi-Fi 802.11 a/b/g/n/ac, Dual-band (2.4 GHz/5 GHz)"
+	}
+], 
+"description":"",  
+"price":9990000,  
+"discount":47,  
+"quantity":921,  
+"viewed":1444,  
+"searched":1373,  
+"sold":1621,  
+"rating":{
+            "oneStar": 0,
+            "twoStar": 0,
+            "threeStar": 0,
+            "fourStar": 0,
+            "fiveStar": 0,
+            "total": 0,
+            "average": 0
+},
+"warranty": [
+	{
+		"title":"Warranty period",
+		"text":"18 tháng"
+	},
+	{
+		"title":"Warranty form",
+		"text":"Điện tử"
+	},
+	{
+		"title":"Warranty place",
+		"text":"Bảo hành chính hãng"
+	}
+],  
+"tags": [
+	{
+      		"_id": 2,
+      		"title": "Điện thoại và máy tính bảng",
+      		"slug": "dien-thoai-va-may-tinh-bang"
+    	}
+],  
+"VATFee":5000,  
+"status":"active",
+"limit": 0
+}
