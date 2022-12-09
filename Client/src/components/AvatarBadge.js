@@ -18,8 +18,9 @@ const AvatarBadge = ({ status, width, height, sx }) => (
         sx={{ width, height, ...sx }}
     >
         <Avatar
-            src="http://dotshop69.000webhostapp.com/Public/images/tue.png"
-            alt="Le Chinh Tue"
+            //="http://dotshop69.000webhostapp.com/Public/images/tue.png"
+            src="https://www.graphicsprings.com/filestorage/stencils/bdc5649fb67a5ab2fc8b4a0dc0eac951.png?width=500&height=500"
+            alt="CVSHOP "
             sx={{ width: '100%', height: '100%' }}
         />
     </StatusBadge>
