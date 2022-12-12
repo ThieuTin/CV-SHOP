@@ -13,11 +13,11 @@ const Banners = ({ id }) => (
     <Grid container id={id}>
         <Grid item md={8} sm={6} xs={12}>
             <Slick settings={settingBanners}>
-                <Banner src="https://channel.mediacdn.vn/thumb_w/640/prupload/879/2018/11/img20181130185725670.jpg" alt="" />
+                <Banner src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/cecb9772751131.5c27a9116babc.png" alt="" />
                 <Banner src="https://image-us.eva.vn/upload/4-2018/images/2018-12-11/1-1544521514-549-width660height408.jpg" alt="" />
                 <Banner src="https://product.hstatic.net/1000238589/product/shopee-640x360_24e81237c35b4081a16ee257790400bb_e268971403d94e62a191a17e14a5c144.jpg" alt="" />
-                <Banner src="https://cc.1cdn.vn/thumbs/540x360/2020/05/13/media-cungcau-vn_tong-hop-cac-ma-giam-gia-khuyen-mai-tren-shopee-ngay-13-5-142223.jpg" alt="" />
-                <Banner src="https://cdn.123job.vn/123job//uploads/images/flash%20sale.jpg" alt="" />
+                <Banner src="https://1.bp.blogspot.com/-lzRtthhzsNA/X8oM36M425I/AAAAAAAAPE0/-L1qMeqVfGMBup7frsuA6K170nkRKpggACLcBGAsYHQ/s1920/12.12%2B-%2BKV%2B1.jpg" alt="" />
+                <Banner src="https://static.vecteezy.com/system/resources/previews/000/691/688/original/sale-banner-template-with-special-sale-vector.jpg" alt="" />
             </Slick>
         </Grid>
         <Grid item md={4} sm={6} xs={12}>
