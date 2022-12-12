@@ -25,12 +25,12 @@ const ResponseChild = ({ status }) => (
                     sx={{ display: { xs: 'flex', md: 'none', lg: 'none' } }}
                 />
                 <Typography component='p' sx={{ fontWeight: 'bold', fontSize: '15px' }}>
-                    Lê Chính Tuệ
+                Nguyen Van A
                 </Typography>
-                <Typography variant='caption'>12 tháng 03 năm 2021</Typography>
+                <Typography variant='caption'>12/12/2022</Typography>
             </Stack>
             <Typography variant='subtitle1'>
-                Bạn ơi, cho mình hỏi lúc vẽ màn hình của bản vẽ có hiện hình không ạ? Hay chỉ có màn hình laptop hiện hình ảnh thôi?
+            Sản phẩm rất tốt !
             </Typography>
         </Message>
     </Stack>

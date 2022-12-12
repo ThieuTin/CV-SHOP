@@ -13,7 +13,8 @@ const propTypes = {
 };
 
 const Comment = ({ status }) => (
-    <RootStyle direction='row'>
+
+   <RootStyle direction='row'>
         <Stack
             sx={{ width: '335px', display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex' } }}
             alignItems='center'
@@ -32,34 +33,37 @@ const Comment = ({ status }) => (
             >
                 <AvatarBadge status={status} width={30} height={30} />
                 <Stack sx={{ mx: 2 }}>
-                    <Title sx={{ p: 0 }}>Lê Chính Tuệ</Title>
-                    <Typography variant='body2'>Joined 4 years ago</Typography>
+                    <Title sx={{ p: 0 }}></Title>
+                    <Typography variant='body2'></Typography>
                 </Stack>
             </Stack>
+
             <Stack direction='row'>
                 <Stars total={5} rating={5} />
                 <Title sx={{ p: 0, px: 1, fontSize: '15px' }}>Very good</Title>
             </Stack>
+
             <Typography variant='subtitle1'>
-                
             </Typography>
-            <Typography variant='body2' sx={{ px: 1 }}>Review at 14/11/2020</Typography>
+
+            <Typography variant='body2' sx={{ px: 1 }}></Typography>
             <Stack direction='row'>
                 <StyledButton variant='outlined' startIcon={<ThumbUpOutlined />}>
-                    Helpful (69)
+                13
                 </StyledButton>
                 <StyledButton variant='outlined' startIcon={<ChatOutlined />}>
-                    Reply
+                2
                 </StyledButton>
             </Stack>
             <Stack>
                 <ResponseChild status="online" />
+                
                 <ResponseChild status="offline" />
             </Stack>
         </Stack>
     </RootStyle>
-);
 
+);
 const RootStyle = styled(Stack)(({ theme }) => ({
     padding: '20px 0',
     borderBottom: `2px solid ${theme.palette.background.default}`,

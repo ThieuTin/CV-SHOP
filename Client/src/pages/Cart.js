@@ -25,7 +25,7 @@ const Cart = () => {
                 {/* Events start */}
                 <Alert severity="info">
                     <AlertTitle>Promotional events</AlertTitle>
-                    Free shipping for orders from 50M <strong>(11/1/2021 - 12/31/2021)</strong>
+                    Free shipping for orders from 50M <strong>(11/1 - 12/31)</strong>
                 </Alert>
                 {/* Events end */}
 

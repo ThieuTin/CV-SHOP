@@ -18,19 +18,19 @@ const HeaderTop = () => {
                 sx={{ display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex' } }}
             >
                 <Stack direction='row' justifyContent='space-between'>
-                    <Linking component={RouterLink} to={{ pathname: 'https://www.facebook.com/exe.shiro' }} target='_blank'>
+                    <Linking component={RouterLink} to={{ pathname: 'https://github.com/ThieuTin/CV-SHOP.git' }} target='_blank'>
                         <i className="bi bi-file-arrow-down"></i> Download app
                     </Linking>
-                    <Linking component={RouterLink} to={{ pathname: 'https://www.facebook.com/exe.shiro' }} target='_blank'>
+                    <Linking component={RouterLink} to={{ pathname: '' }} target='_blank'>
                         <i className="bi bi-code-slash"></i> Connect
                     </Linking>
                 </Stack>
                 <Stack direction='row' justifyContent='space-between'>
                     {/* <NotifycationPopover /> */}
-                    <Linking component={RouterLink} to={{ pathname: 'https://www.facebook.com/exe.shiro' }} target='_blank'>
+                    <Linking component={RouterLink} to={{ pathname: '' }} target='_blank'>
                         <i className="bi bi-bell"></i> Notification
                     </Linking>
-                    <Linking component={RouterLink} to={{ pathname: 'https://www.facebook.com/exe.shiro' }} target='_blank'>
+                    <Linking component={RouterLink} to={{ pathname: '' }} target='_blank'>
                         <i className="bi bi-question-circle"></i> Support
                     </Linking>
                     {isAuthenticated
